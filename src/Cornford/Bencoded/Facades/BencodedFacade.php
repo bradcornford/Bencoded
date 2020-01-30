@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 
-class Bencoded extends Facade
+class BencodedFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {

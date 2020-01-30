@@ -32,7 +32,7 @@ Once this operation completes, the next step is to add the service provider. Ope
 
 The final step is to introduce the facade. Open `app/config/app.php`, and add a new item to the aliases array.
 
-    'Bencoded'         => 'Cornford\Bencoded\Facades\Bencoded',
+    'Bencoded'         => 'Cornford\Bencoded\Facades\BencodedFacade',
 
 That's it! You're all set to go.
 

@@ -22,5 +22,15 @@
             "Cornford\\Bencoded": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cornford\\Bencoded\\BencodedServiceProvider"
+            ],
+            "aliases": {
+                "Bencoded": "Cornford\\Bencoded\\Facades\\BencodedFacade"
+            }
+        }
+    }
 }
