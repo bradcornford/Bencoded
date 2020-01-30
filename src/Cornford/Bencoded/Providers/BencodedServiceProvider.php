@@ -20,7 +20,7 @@ class BencodedServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('cornford/bencoded');
+//        $this->package('cornford/bencoded');
     }
 
     /**
