@@ -1,0 +1,26 @@
+{
+    "name": "cornford/bencoded",
+    "description": "An easy way to use bencoding in Laravel.",
+    "keywords": ["laravel", "bencode", "bencoding", "encode", "decode"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bradley Cornford",
+            "email": "me@bradleycornford.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev",
+        "mockery/mockery": "0.9.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cornford\\Bencoded": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
