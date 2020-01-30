@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.org/bradcornford/Bencoded.svg?branch=master)](https://travis-ci.org/bradcornford/Bencoded)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bradcornford/Bencoded/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bradcornford/Bencoded/?branch=master)
 
+### For Laravel 5.x, check [version 2.0.0](https://github.com/bradcornford/Bencoded/tree/v2.0.0)
+
 ### For Laravel 4.x, check [version 1.0.0](https://github.com/bradcornford/Bencoded/tree/v1.0.0)
 
 Think of Bencoded as an easy way to use bencoding with Laravel. These include:

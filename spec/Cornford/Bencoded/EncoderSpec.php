@@ -14,7 +14,7 @@ class EncoderSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Cornford\Bencoded\Contracts\EncodableInterface');
+        $this->shouldHaveType(EncodableInterface::class);
     }
 
     public function it_should_encode_a_string()
@@ -69,13 +69,13 @@ class EncoderSpec extends ObjectBehavior
     public function it_should_throw_an_exception_with_a_null_input()
     {
         $input = null;
-        $this->shouldThrow('Cornford\Bencoded\Exceptions\InvalidEncodeInputException')->during('encode', [$input]);
+        $this->shouldThrow(InvalidEncodeInputException::class)->during('encode', [$input]);
     }
 
     public function it_should_throw_an_exception_with_a_boolean_input()
     {
         $input = false;
-        $this->shouldThrow('Cornford\Bencoded\Exceptions\InvalidEncodeInputException')->during('encode', [$input]);
+        $this->shouldThrow(InvalidEncodeInputException::class)->during('encode', [$input]);
     }
 }
 

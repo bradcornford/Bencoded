@@ -13,7 +13,7 @@ class DecoderSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Cornford\Bencoded\Contracts\DecodableInterface');
+        $this->shouldHaveType(DecodableInterface::class);
     }
 
     public function it_should_encode_a_string()
@@ -55,12 +55,12 @@ class DecoderSpec extends ObjectBehavior
     public function it_should_throw_an_exception_with_a_null_input()
     {
         $input = null;
-        $this->shouldThrow('Cornford\Bencoded\Exceptions\InvalidBencodedDelimiterException')->during('decode', [$input]);
+        $this->shouldThrow(InvalidBencodedDelimiterException::class)->during('decode', [$input]);
     }
 
     public function it_should_throw_an_exception_with_a_boolean_input()
     {
         $input = false;
-        $this->shouldThrow('Cornford\Bencoded\Exceptions\InvalidBencodedDelimiterException')->during('decode', [$input]);
+        $this->shouldThrow(InvalidBencodedDelimiterException::class)->during('decode', [$input]);
     }
 }
